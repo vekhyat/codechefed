@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int size;
+	cin>>size;
+	bool duplicate;
+    int arr[size];
+    int arrnew[100];
+    for(int i=0;i<size;i++){
+        cin>>arr[i];
+    }
+    for(int w=0;w<size;w++){
+        duplicate=false;
+        for(int g=w-1;g>=0;g--){
+            if(arr[g]==arr[w]){
+        duplicate=true;
+                break;
+            }}
+        if(!duplicate)cout<<arr[w]<<" ";
+        }
+        
+    
+}
+
+   
