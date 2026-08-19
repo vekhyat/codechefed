@@ -67,7 +67,7 @@ The number  **6**  appears twice in the array, so the answer is  **6**.
 **Language:** c_cpp  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-08-19T04:52:14.871Z  
+**Submitted:** 2026-08-19T04:53:44.410Z  
 
 ```c_cpp
 #include <bits/stdc++.h>
